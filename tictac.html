@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Крестики - нолики</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+  <script src="main.js"></script>
+ </head>
+ <body>
+  <div id="game">
+   <button onclick="refresh()" class="refresh" type="button">Запуск новой игры</button> 
+   <h2 class="turn"><span id="text">Ходят: </span><span id="turn">0</span></h2>
+   <div class="grid-container">
+    <button onclick="setValue('btn1')" id="btn1" class="button" type="button"></button>
+    <button onclick="setValue('btn2')" id="btn2" class="button" type="button"></button>
+    <button onclick="setValue('btn3')" id="btn3" class="button" type="button"></button>
+    <button onclick="setValue('btn4')" id="btn4" class="button" type="button"></button>
+    <button onclick="setValue('btn5')" id="btn5" class="button" type="button"></button>
+    <button onclick="setValue('btn6')" id="btn6" class="button" type="button"></button>
+    <button onclick="setValue('btn7')" id="btn7" class="button" type="button"></button>
+    <button onclick="setValue('btn8')" id="btn8" class="button" type="button"></button>
+    <button onclick="setValue('btn9')" id="btn9" class="button" type="button"></button>
+   </div>
+  </div>
+ </body>
+</html>
